@@ -33,3 +33,10 @@
     line-height: 1.5;
     letter-spacing: 1.5px;
 }
+
+.small-logo{
+    max-width: 600px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: bottom;
+}
