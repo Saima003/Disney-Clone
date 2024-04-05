@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+          <Route path='/Disney-Clone' element={<Login/>}/>
           <Route path='/' element={<Login/>}/>
           <Route path='/login' element={<Login/>}/>
           <Route path='/about' element={<About/>}/>
