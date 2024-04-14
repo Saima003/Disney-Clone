@@ -10,8 +10,8 @@ import seriesImg from '../images/series-icon.svg';
 
 const Header = () => {
   return (
-    <nav className={`fixed top-0 left-0 right-0 h-16 bg-gray-900 flex justify-between items-center px-20 z-3 text-white`}>
-        <a className='nav-a'>
+    <nav className={`fixed top-0 left-0 right-0 h-16 bg-gray-900 flex justify-between items-center px-20 z-10 text-white`}>
+        <a href="/" className='nav-a'>
         <img className="nav-img" src={disneyLogo} alt="Disney+" />
         </a>
         <div className={`flex flex-row flex-nowrap h-full justify-end items-center relative mr-auto ml-20 p-0 m-0 nav-menu`}>
