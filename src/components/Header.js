@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import disneyLogo from '../images/logo.svg'
 import homeImg from '../images/home-icon.svg'
 import searchImg from '../images/search-icon.svg';
@@ -40,6 +39,7 @@ const Header = () => {
             <span className='nav-menu-span'>SERIES</span>
             </a>
         </div>
+        <a className='login'>Login</a>
         </nav>
   )
 }
