@@ -39,7 +39,7 @@ const Header = () => {
             <span className='nav-menu-span'>SERIES</span>
             </a>
         </div>
-        <a className='login'>Login</a>
+        <button className='login'>Login</button>
         </nav>
   )
 }
