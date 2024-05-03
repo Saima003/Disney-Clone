@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/disney-clone/static/css/main.228219f3.css",
-    "main.js": "/disney-clone/static/js/main.e4b88873.js",
+    "main.js": "/disney-clone/static/js/main.d6a8ad48.js",
     "static/media/login-background.jpg": "/disney-clone/static/media/login-background.05b1a1b3088cbb458939.jpg",
     "static/media/cta-logo-two.png": "/disney-clone/static/media/cta-logo-two.e69ae55254630c715843.png",
     "static/media/cta-logo-one.svg": "/disney-clone/static/media/cta-logo-one.51d9b8d70927afb97d9b4dcc166ed8f6.svg",
@@ -14,10 +14,10 @@
     "static/media/original-icon.svg": "/disney-clone/static/media/original-icon.d7752d89e5a5d2b6276338bea45f413b.svg",
     "static/media/home-icon.svg": "/disney-clone/static/media/home-icon.b6a11f9b406f2f13cd82608a276428e5.svg",
     "main.228219f3.css.map": "/disney-clone/static/css/main.228219f3.css.map",
-    "main.e4b88873.js.map": "/disney-clone/static/js/main.e4b88873.js.map"
+    "main.d6a8ad48.js.map": "/disney-clone/static/js/main.d6a8ad48.js.map"
   },
   "entrypoints": [
     "static/css/main.228219f3.css",
-    "static/js/main.e4b88873.js"
+    "static/js/main.d6a8ad48.js"
   ]
 }
