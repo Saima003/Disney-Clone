@@ -6,11 +6,15 @@ import watchImg from '../images/watchlist-icon.svg';
 import originalsImg from '../images/original-icon.svg';
 import moviesImg from '../images/movie-icon.svg';
 import seriesImg from '../images/series-icon.svg';
+import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/clerk-react";
 
 const Header = () => {
-    const handleLogin =()=>{
-        alert("Pls Login")
-    }
+    // const handleLogin =()=>{
+        // alert("Pls Login")
+        // <SignedIn>
+        //     <UserButton />
+        // </SignedIn>
+    // }
   return (
     <nav className={`fixed top-0 left-0 right-0 h-16 bg-gray-900 flex justify-between items-center px-20 z-10 text-white`}>
         <a href="/" className='nav-a'>
@@ -42,7 +46,16 @@ const Header = () => {
             <span className='nav-menu-span'>SERIES</span>
             </a>
         </div>
-        <button onClick={handleLogin} className='login'>Login</button>
+        {/* <SignedIn> */}
+            {/* <UserButton/> */}
+        {/* </SignedIn> */}
+        {/* <button className='login'>Login</button> */}
+        <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
         </nav>
   )
 }
